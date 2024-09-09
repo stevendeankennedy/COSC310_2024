@@ -1,5 +1,7 @@
 package BlackjackMaybe;
 
-public class Hand {
+import utility.Queue;
+
+public class Hand extends Queue {
 
 }

@@ -22,6 +22,11 @@ public class Queue {
 	}
 	
 	public Card deq() {
-		return null;
+		Card c = Q[0];
+		count -= 1;
+		for (int i=0; i<count; i++) {
+			Q[i] = Q[i+1];
+		}
+		return c;
 	}
 }

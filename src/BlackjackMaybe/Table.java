@@ -14,7 +14,25 @@ public class Table {
 		t.runSimpleGame();
 	}
 	
+	private Deck deck;
+	private Hand[] hands;
+	
+	public Table() {
+		for (int i=0; i<2; i++) {
+			hands[i] = new Hand();
+		}
+	}
+	
 	private void runSimpleGame() {
+		// make cards
+		// draw 2 cards each
+	}
+	
+	private Deck makeDeck() {
+		return null;
+	}
+	
+	private void dealEach(int n) {
 		
 	}
 	
