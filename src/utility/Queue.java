@@ -7,6 +7,8 @@ public class Queue {
 	public static final int DEFAULT_SIZE = 52;
 
 	private int count;
+
+
 	private Card[] Q;
 	
 	public Queue() {
@@ -28,5 +30,9 @@ public class Queue {
 			Q[i] = Q[i+1];
 		}
 		return c;
+	}
+	
+	public int getCount() {
+		return count;
 	}
 }
